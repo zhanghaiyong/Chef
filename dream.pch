@@ -1,0 +1,33 @@
+//
+//  dream.pch
+//  dream
+//
+//  Created by zhy on 17/1/13.
+//  Copyright © 2017年 zhanghaiyong. All rights reserved.
+//
+
+#ifndef dream_h
+#define dream_h
+
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import "BaseViewController.h"
+#import "UIViewExt.h"
+#import "Defaults.h"
+#import "NSURLs.h"
+#import "Uitils.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import <IQKeyboardManager.h>
+#import <AVOSCloud.h>
+#import "KSMNetworkRequest.h"
+#import "BaseParams.h"
+#import "SVProgressHUD.h"
+#import "HUDConfig.h"
+#import <MWPhotoBrowser.h>
+#import "UIColor+HYExtension.h"
+#import "TakePhotoViewController.h"
+#import "NSDate+Tools.h"
+#import "NSString+HYExtension.h"
+
+#endif /* dream_h */

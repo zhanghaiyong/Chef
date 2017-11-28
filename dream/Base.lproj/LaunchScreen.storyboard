@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Zapfino.ttf">
+            <string>Zapfino</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backImg" translatesAutoresizingMaskIntoConstraints="NO" id="GJk-lr-arL">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUe-hB-Jje">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="euv-d9-o70">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-180" translatesAutoresizingMaskIntoConstraints="NO" id="hBX-Rp-Iky">
+                                            <rect key="frame" x="137" y="80" width="100" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="CVb-ZD-Cqe"/>
+                                                <constraint firstAttribute="height" constant="100" id="R0I-pO-TqB"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are the apple of the teacher" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQw-Sd-aZI">
+                                            <rect key="frame" x="46" y="230" width="282" height="51"/>
+                                            <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学做菜，就用厨大师" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGx-VK-luw">
+                                            <rect key="frame" x="0.0" y="619" width="375" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tGx-VK-luw" firstAttribute="leading" secondItem="euv-d9-o70" secondAttribute="leading" id="9Zi-Fo-I17"/>
+                                        <constraint firstAttribute="trailing" secondItem="tGx-VK-luw" secondAttribute="trailing" id="Can-ep-xOF"/>
+                                        <constraint firstItem="hBX-Rp-Iky" firstAttribute="top" secondItem="euv-d9-o70" secondAttribute="top" constant="80" id="EH3-RZ-MV6"/>
+                                        <constraint firstItem="hBX-Rp-Iky" firstAttribute="centerX" secondItem="euv-d9-o70" secondAttribute="centerX" id="Q5g-iQ-SgH"/>
+                                        <constraint firstItem="dQw-Sd-aZI" firstAttribute="top" secondItem="hBX-Rp-Iky" secondAttribute="bottom" constant="50" id="Vo9-1h-N77"/>
+                                        <constraint firstAttribute="bottom" secondItem="tGx-VK-luw" secondAttribute="bottom" constant="10" id="hLj-1f-oBV"/>
+                                        <constraint firstItem="dQw-Sd-aZI" firstAttribute="centerX" secondItem="hBX-Rp-Iky" secondAttribute="centerX" id="wVf-4w-3AP"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GJk-lr-arL" secondAttribute="trailing" id="0j7-05-UZT"/>
+                            <constraint firstAttribute="trailing" secondItem="gUe-hB-Jje" secondAttribute="trailing" id="6aH-Dr-9lF"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="GJk-lr-arL" secondAttribute="bottom" id="Bdq-Bw-h9L"/>
+                            <constraint firstItem="gUe-hB-Jje" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="JbR-5r-evl"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gUe-hB-Jje" secondAttribute="bottom" id="OGh-Fy-kmG"/>
+                            <constraint firstItem="GJk-lr-arL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="TGx-v3-oxy"/>
+                            <constraint firstItem="GJk-lr-arL" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="eY3-nb-yXb"/>
+                            <constraint firstItem="gUe-hB-Jje" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="svP-sn-YP8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-180" width="180" height="180"/>
+        <image name="backImg" width="600" height="954"/>
+    </resources>
+</document>
